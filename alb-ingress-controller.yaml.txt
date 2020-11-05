@@ -19,7 +19,7 @@ spec:
         args:
         - --ingress-class=alb
         - --cluster-name=eks-fargate-alb-demo
-        - --aws-vpc-id=vpc-0b79bfdccaa116786
+        - --aws-vpc-id=vpc-XXXXXXXXXXX
         - --aws-region=us-east-1
         image: docker.io/amazon/aws-alb-ingress-controller:v1.1.6
       serviceAccountName: alb-ingress-controller
